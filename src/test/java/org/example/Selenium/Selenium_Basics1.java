@@ -1,9 +1,9 @@
-package org.example.Selenium_Basics;
+package org.example.Selenium;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class Selenium {
+public class Selenium_Basics1 {
 
     @Test
     public void test_openVWOLoginPage(){
