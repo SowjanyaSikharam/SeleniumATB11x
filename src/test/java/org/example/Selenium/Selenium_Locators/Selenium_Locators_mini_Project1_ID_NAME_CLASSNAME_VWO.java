@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Selenium_Locators_mini_Project1_ID_NAME_CLASSNAME {
+public class Selenium_Locators_mini_Project1_ID_NAME_CLASSNAME_VWO {
     @Description ("TC#1 - Verify that invalid login error meaasge is displayed")
     @Owner("sowjanya Sikharam")
     @Test
