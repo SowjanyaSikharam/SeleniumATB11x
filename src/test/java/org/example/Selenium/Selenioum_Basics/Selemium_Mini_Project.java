@@ -1,12 +1,13 @@
 package org.example.Selenium.Selenioum_Basics;
 import io.qameta.allure.Description;
 //import jdk.internal.org.jline.terminal.TerminalBuilder;
+import org.example.Selenium.CommonToAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Selemium_Mini_Project extends CommonToAll{
+public class Selemium_Mini_Project extends CommonToAll {
     @Description("open Url")
     @Test
     public void test_Method() throws Exception{
