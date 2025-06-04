@@ -17,6 +17,8 @@ public class Advance_Scenario_MAP_SVGElements {
         WebDriver driver = new EdgeDriver();
         driver.get("https://www.amcharts.com/svg-maps/?map=india");
         driver.manage().window().maximize();
+
+        //local-name() , name() ==== Xpath build in functions
        //states ==  //*[local-name()="svg"]/*[name()="g"][7]/*[name()="g"]/*[name()="g"]/*[name()="path"]
                         // 19                    //7g                       //3           //36 states
         List<WebElement>  states = driver.findElements(By.xpath("//*[local-name()=\"svg\"]/*[name()=\"g\"][7]/*[name()=\"g\"]/*[name()=\"g\"]/*[name()=\"path\"]"));
