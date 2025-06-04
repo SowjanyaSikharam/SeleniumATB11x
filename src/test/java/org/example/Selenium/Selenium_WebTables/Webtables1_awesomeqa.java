@@ -1,12 +1,11 @@
 package org.example.Selenium.Selenium_WebTables;
 
-import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.Test;
 
-public class Webtables1 {
+public class Webtables1_awesomeqa {
 
     //@Description("Test case webtables");
     @Test
