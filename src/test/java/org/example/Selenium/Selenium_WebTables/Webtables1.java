@@ -38,10 +38,13 @@ public class Webtables1 {
                 String data = driver.findElement(By.xpath(dynamic_path)).getText();
                // System.out.println(data);
                 if(data.contains("Helen Bennett")){
-                    String country_patch = dynamic_path+ "/following-sibling::td";
-                    String country_text = driver.findElement(By.xpath(country_patch)).getText();
+                    String country_path = dynamic_path+ "/following-sibling::td";
+                    String company_path = dynamic_path+ "/preceding-sibling::td";
+                    String country_text = driver.findElement(By.xpath(country_path)).getText();
+                    String company_text = driver.findElement(By.xpath(company_path)).getText();
                     System.out.println("------------");
                     System.out.println("Helen Bennett in --" + country_text);
+                    System.out.println("Helen Bennett is Company--" +company_text);
 
 
                 }
