@@ -23,6 +23,10 @@ public class Flipkard1 {
 
         Thread.sleep(5000);
 
+        List<WebElement> titlesResult = driver.findElements(By.xpath("//div[contains(@data-id,'CPU')]/div/a[2]"));
+        for(WebElement title : titlesResult){
+            System.out.println(title.getText());
+        }
         driver.quit();
     }
 }
